@@ -1,0 +1,20 @@
+In this video the first thing that we learn about are floats. For floats they are able to let us have text to the side of our image. In order to have this text next to the page we are going to need to write code in the css file for this. A way that we can do this would be with example code.
+
+img {
+	float:left;
+	Margin-right: 20px;
+}
+
+This code allows us to align the text to the left side of the image, and the margin-right allows how to put some space between the image and the text. If we want to put the text to the right then we are going to need to put right next to the float. 
+
+For background color, ro change this we would need to write this line of code background-color: yellow, we can change this to any color that we would like to. Sometimes, there will be the background color that overalls this, and a way to fix this would be to clear: both;, and what this does is it clears the floating background. 
+
+A way to put each box separately with different colors would be to do .red box and .blue box. This allows you to put 2 different boxes, one that is red and one that is blue. 
+
+To adjust the box values that you would like for text or colors/images what you would need to write is something like this. 
+
+.box {
+	Width: 100x;
+	Height: 100px:
+	floar: right;
+}
