@@ -1,0 +1,31 @@
+Flexbox is also known as the flexible box model. It is a newer CSS layout model that allows and provides the user an easy and clean way to arrange items within a container. 
+
+With the old CSS. you would need to assign width whether it be a percentage or fixed width, then later use floats to arrange the values on the page. This requires a lot of matches since you need to factor your margins and find the width of the object and such. Flexbox allows the user to not have to worry about floats, it is extremely responsive and is able to be used on a mobile device. It also makes child elements much easier and on top of that flex containers margins will not collapse with the margins of it’s content. You are also able to change the file without having to edit the source HTML. 
+
+Flexbos has the ability to later item width and height to fight the containers in the available free space. To do this Flexbox is direction-agnostic and it is built for small-scale layout while the “grid” specification is for more large-scale. 
+
+The flex properties are: 
+
+display: flex | inline-flex;
+
+flex-direction: row | column
+
+flex-wrap: wrap | nowrap | wrap reverse
+
+flex-basis: <length>
+
+justify-content: flex-start | flex-end | center
+
+align-self: flex-start | flex-end | center
+
+align-items: flex-start | flex-end | center
+
+align-content: flex-start | flex-end | center
+
+flex-grow: <number>;
+
+flex-shrink: <number>;
+
+flex: <integer>;
+
+order: <integer>;
